@@ -1,54 +1,31 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18378489&assignment_repo_type=AssignmentRepo)
-# SE_Day1
-Software Engineering Day1 Assignment
+Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity? MERGING-AN OPERATION THAT RECONCILES CHANGES MADE TO A VERSION-CONTROLLED COLLECTION OF FILES BRANCHING-THE DUPLICATION OF AN OBJECT/FILE UNDER VERSION CONTROL TO MAKE SEPARATE MODIFICATION POSSIBLE CONFLICT RESOLUTION-MERGING DIFFERENT CODE BRANCHES/AGREEING ON A SET OF CODING STANDARDS TO PREVENT FUTURE CONFLICTS COMMIT-AN OPERATION WHICH SENDS THE LATEST CHANGES OF THE SOURCE CODE TO THE REPOSITORY REPOSITORY-A DATA STRUCTURE THAT STORES META DATA FOR A SET OF FILES OR DIRECTORY STRUCTURES PULL REQUESTS-A MECHANISM FOR DEVELOPMENT TO PROPOSE CHANGES TO A CODE BASE IN A COLLABORATIVE ENVIRONMENT HISTORY AND REVERT-AN OPERATION THAT ALLOWS DEVELOPMENT TO SEE CURRENT ACTIVITIES AND CHANGES AT ANY GIVEN TIME
 
-#Part 1: Introduction to Software Engineering
+GITHUB IS POPULAR AS IT ALLOWS ONE TO CREATE,STORE,CHANGE,MERGE AND COLLABORATE
 
-Explain what software engineering is and discuss its importance in the technology industry.
-It is the systematic application of engineering principles ,methods and tools to the dvelopment and maintenance of high quality software systems.Software engineering plays an important role in technology as it enables the creation of software applications and systems that power various aspects of modern life e.g communiction ,commerce , entertainment and health care .
+VERSION CONTROL HELPS BY ENABLING MANAGEMENT OF THE DEVELOPMENT PROCESS SINCE ONE CAN;TRACK CANGES,USEBRANCHING TO ALLOW EXPERIMENTATION WITHOUT RISK,USE CONFLICT RESOLUTION HENCE ENABLING DEVELOPMENT TO MERGE THEIR WORK WITHOUT OVERWRITING EACH OTHER'S CODE,USED TO PULL REQUEST FOR QUALITY ASSUARANCE WHEN MERGING TO MAIN BRANCH.ALL THIS AND OTHERS HELP TO SAFEGUARD THE INTEGRITY OF THEIR CODEBASE Describe the process of setting up a new repository on GitHub. What are the key steps, and what are some of the important decisions you must make during this process? -SIGNING UP TO GITHUB -CREATING A NEW REPOSITORY AND FILLING DETAILS iename,description,public/private -INITIALIZE WITH README AND THEN CREATE A REPOSITORY -CLONE THE REPOSITORY LOCALLY -START WORKING ON PROJECT
 
-Identify and describe at least three key milestones in the evolution of software engineering.
--The transition from art to a structured methodology ; this brought the introduction of formalmethods which include structured development processes , planning and quality control in software creation. 
--Development of modelling approaches ;developers began using graphical models and diagrams to design and visualize system structures before coding.
--Process-Oriented Development and Agile methodologies ;led to a shift from rigid processes to flexible ,customer focused developments.The Agile manifesto led to advocating for adaptive planning ,collaboration and iterative development.
-List and briefly explain the phases of the Software Development Life Cycle.
--Requirements-gathering and documenting user needs and system requirements.
--Design-creating high-level and detailed designs of the software architecture and user interface.
--Implementation-writing code and building the software according to the design specifications.
--Testing-conducting various tests to ensure the software meets quality standards and functional requirements.
--Deployment-releasing the software to users or customers.
--Maintenance-providing ongoing support ,updates and enhancements to the software after deployment.
+Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration? IT PROVIDES ESSENTIAL INFORMATION ABOUT ONES PROJECT INCLUDING WHAT IT DOES,HOW TO SET IT UP AND HOW OTHERS CAN CONTRIBUTE:IT COMMUNICATES EXPECTATIONS OF YOUR PROJECT IT INCLUDES:-PROJECT TITLE AND DESCRIPTION -INSTALLATION INSTRUCTIONS -USAGE INSTRUCTIONS -PRACTICAL EXAMPLES -CONTRIBUTING GUIDELINES -LISENCE INFORMATION -CONTACT INFORMATION -ACKNOWLEDGEMENTS
 
-Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
-Waterfall model is a linear and sequential approach where each phase must be completed prior to moving on to the next step while Agile methodology is an iterative and incremental approach that emphasizes flexibility and collaboration between cross-functional teams,requirements and solutions evolve through collaboration and adaptation to change.
-Waterfall is best for stable well defined projects such as banking and financial systems.
-Agile methodology is ideal for fast changing ,iterative development such bas web applications.
+IT PROVIDES CLEAR PROJECT UNDERSTANDING WHICH CAN DIRECT NEW COLLABORATORS WHILE ENGGING THEM IT ALSO REDUCES DEPENDENCY ON THE REPOSITORY OWNER FOR BASIC QUESTIONS Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects? A PUBLIC REPOSITORY IS OPEN TO EVERYONE WHILE A PRIVATE ONE IS VISIBLE ONLY TO COLLABORATORS YOU INVITE IN A PUBLIC REPOSITORY THE CODE IS EXPOSED TO THE PUBLIC WHILE IN PRIVATE IT IS PROTECTED FROM UNAUTHORISED ACCESS HENCE FOSTERING A COLLABORATIVE ENVIRONMENT
 
-Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
-Software developer-responsible for writing codes and implementing software solutions.
-Quality assurance engineer-ensures software quality by designing and executing test plans.
-Project manager- oversees the planning,execution and delivery of software projects.
+~IN A PUBLIC REPO ANYONE CAN CONRIBUTE WHILE IN A PRIVATE REPO THERE IS CONTROL OVER COLLABORATION ~ A PRIVATE REPO IS NOT VISIBLE TO THE PUBLIC WHICH ENSURES SAFEGUARDING OF THE CODE WHILE A PUBLIC REPO MIGHT ACCIDENTALLY EXPOSE SENSITIVE INFORMATION SINCE THE REPO IS VISIBLE TO EVERYONE Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project? -IN YOUR REPOSITORY'S LIST OF FILES,SELECT README.md -IN THE UPPER RIGHT CORNER OF THE FILE VIEW ,CLICK TO OPEN THE FILE EDITOR -IN THE TEXT BOX,TYPE SOME INFORMATION ABOUT YOURSELF -ABOVE THE NEW CONTENT,CLICK PREVIEW -REVIEW THE CHANGES YOU MADE TO THE FILE -CLICK COMMIT CHANGES
 
-Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
-Integrated Development Environment-a software suite that provides comprehensive tools for writing,debugging and testing code e.g visual studio, eclipse,IntelliJ IDEA.
-Version Control Systems-software tools for tracking changes to source code and coordinating work among team members e.g Git,Subversion.
+A COMMIT IS AN OPERATION WHICH SENDS THE LATEST CHANGES OF THE SOURCECODE TO THE REPO ~HAS COMMIT HISTORY THAT PROVIDE A TIMELINE OF ALL THE CHANGES THAT HAVE BEEN MADE TO THE PROJECT ~INCASE OF AN ERROR YOU CAN REVERT TO A PREVIOUS COMMIT ~PULL REQUESTS ALLOW COLLABORATORS TO REVIEW COMMITS BEFORE MERGING THEM INTO THE MAIN BRANCH
 
-What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
-Challenges:Changing requirements,tight deadlines,technical debt.
-Strategies to overcome these challenges:Effective communication,Agile methodologies,prioritization of tasks, regular reassessment of project goals and timelines.
+How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow. BRANCHING ALLOWS YOU TO DIVERGE FROM THE MAINLINE OF DEVELOPMENT TO WORK ON A NEW FEATURE WITHOUT AFFECTING THE MAIN CODEBASE
 
-Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
-Unit testing-testing individual components or modules of software.
-Integration testing-testing interactions between different components or subsystems.
-System testing-testing the entire software system as a whole.
-Acceptance testing-testing the software against user requirements to ensure it meets user needs.
+~IT ENSURES AN ORGANISED WORKFLOW ~ENABLES COLLABORATION ~IT AVOIDS THE RISK OF OVERWRITING EACH OTHER'S CHANGES
 
-#Part 2: Introduction to AI and Prompt Engineering
+WORKFLOW; -CREATE A BRANCH -WORK ON THE BRANCH BY MAKING CHANGES TO THE CODE AFTER WHICH YOU NEED TO STAGE AND COMMIT -PUSH YOUR CHANGES -OPEN A PULL REQUEST -MERGE THE BRANCH -DELETE THE BRANCH TO KEEP THE REPOSITORY CLEAN
 
+Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request? A PULL REQUEST SERVES AS A PROPOSAL TO MERGE CHANGES MADE IN ONE BRANCH OF A REPOSITORY INTO ANOTHER TYPICALLY FROM A FEATURE BRANCH INTO THE MAIN BRANCH
 
-Define prompt engineering and discuss its importance in interacting with AI models.
-Prompt engineering -entails crafting questions or statements to get the best possible responses from AI models.
-Importance:prompt engineering is important for guiding AI models to produce accurate and relevant outputs ,thereby enhancing their performance and reliability.
-Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
-Vague prompt:"An engine"
-Improved prompt:"A powerfull jet engine with exposed turbines,glowing hot from recent use,emitting a faint trail of smoke and heat waves."
+IT FACILITATAES CODE REVIEW AND COLLABORATION IN THAT: PRs PROVIDE A DISCUSSION THREAD FOR EACH PROPOSED CHANGE ,HENCE HELPS PROMOTE COMMUNICATION AND COLLABORATION AMONG TEAM MEMBERS ,ALL CHANGES AND DISCUSSIONS RELATED TO A FEATURE,BUG FIX OR CHANGE ARE VISIBLE TO ALL CONTRIBUTORS PROMOTING TRANSPARENCY AND BY REQUIRING CODE REVIEWS,PRs HELP ENFORCE CODING STANDARDS AND PRACTICES
+
+PULL REQUEST WORKFLOW: ~CREATE A BRANCH FOR YOUR WORK ~PUSH THE BRANCH TO GITHUB AND CREATE A PULL REQUEST ~REVIEW AND DISCUSS THE PULL REQUEST WITH YOUR TEAM ~MAKE NECESSARY CHANGES BASED ON FEEDBACK ~MERGE NECESSARY CHANGES BASED ON FEEDBACK ~MERGE THE PULL REQUEST ONCE IT IS APPROVED Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful? FORKING-CREATING A PERSONAL COPY OF SOMEONE ELSE'S REPOSITORY.IT IS COMMONLY USED TO CONTRIBUTE TO A PROJECT BUT ONE HAS NO WRITE ACCESS TO THE ORIGINAL REPOSITO FORKING DEFERS FROM CLONING IN THAT IT CREATES A COPY OF THE REPOSITORY ON GITHUB UNDER ONES ACCOUNT WHILE CLONING CREATES A LOCAL COPY OF A REPOSITORY ON ONES COMPUTER
+
+FORKING IS PARTICULARLY USEFUL WHEN CONTRIBUTING TO OPEN SOURCE PROJECTS CUSTOMISING A PUBLIC PROJECT FOR PERSONAL USE Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts. ISSUES AND PROJECT BOARDS FACILITATE COMMUNICATION,TASK MANAGEMENT AND OVERALL ORGANISATION WITHIN A COLLABORATIVE DEVELOPING ENVIRONMENT
+
+TRACKING BUGS-ONE CREATES AN ISSUE WHEN THEY ENCOUNTER A BUG,PROVIDING DETAILS AND STEPS TO REPRODUCE IT.THIS MAKES IT EASY FOR DEVELOPMENT TO TRACK AND RESOLVE THE ISSUE MANAGE TASKS-ISSUES ARE OFTEN USED TO BREAK DOWN LARGE GOALS INTO SMALLER,MANAGABLE PIECES WHERE THESE ISSUES ARE ASSIGNED TO DIFFERENT TEAM MEMBERS AND EACH ISSUE REPESENTS A DISCRETE TASK WITHIN THE BOARDER PROJECT GOAL IMPROVE PROJECT ORGANISATION-PROJECT BOARDS CAN BE USED TO ORGANIZE ISSUES INTO COLUMN LIKE'TO DO','IN PROGRESS',AND 'DONE'; CREATING A GOOD VISUAL REPRESENTATION WHICH IS USEFUL FOR TEAMS TO QUICKLY ASSES THE STATUS OF VARIOUS TASKS AND ENSURE THAT EVERYONE KNOWS THE CURRENT PRIORITIES ENHANCING COLLABORATIVE EFFORTS-IF AN ISSUE IS RAISED ,TEAM MEMBERS CAN ADD COMMENTS WITH IDEAS/POSSIBLE FIXES HENCE THEY APPROACH IT TOGETHER ENABLING A CENTRALISED COMMUNICATION;AN ISSUE CAN BE ASSIGNED TO A SPECIFIC TEAM MEMBER ENSURING CLEAR OWNERSHIP OF TASKS ENHANCING ACCOUNTABILITY
+
+Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration? COMMON CHALLENGES-MERGE CONFLICTS,INADEQUATE BRANCHING STRATEGY BEST PRACTICES-BUG FIXES,USING BRANCHING COMMON PITFALLSCOMMITING DIRECTLY TO MAIN BRANCH[STRATEGY]WORK ON SEPARATE BRANCHES MERGE CONFLICTS[STRATEGY]PULL CHANGES REGULARLY
